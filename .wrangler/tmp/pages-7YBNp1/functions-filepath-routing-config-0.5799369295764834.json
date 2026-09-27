@@ -1,0 +1,237 @@
+{
+  "routes": [
+    {
+      "routePath": "/api/articles/:id",
+      "mountPath": "/api/articles",
+      "method": "DELETE",
+      "module": [
+        "api/articles/[id].js:onRequestDelete"
+      ]
+    },
+    {
+      "routePath": "/api/articles/:id",
+      "mountPath": "/api/articles",
+      "method": "GET",
+      "module": [
+        "api/articles/[id].js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/articles/:id",
+      "mountPath": "/api/articles",
+      "method": "PUT",
+      "module": [
+        "api/articles/[id].js:onRequestPut"
+      ]
+    },
+    {
+      "routePath": "/api/publications/:id",
+      "mountPath": "/api/publications",
+      "method": "DELETE",
+      "module": [
+        "api/publications/[id].js:onRequestDelete"
+      ]
+    },
+    {
+      "routePath": "/api/publications/:id",
+      "mountPath": "/api/publications",
+      "method": "GET",
+      "module": [
+        "api/publications/[id].js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/articles",
+      "mountPath": "/api/articles",
+      "method": "DELETE",
+      "module": [
+        "api/articles/index.js:onRequestDelete"
+      ]
+    },
+    {
+      "routePath": "/api/articles",
+      "mountPath": "/api/articles",
+      "method": "GET",
+      "module": [
+        "api/articles/index.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/articles",
+      "mountPath": "/api/articles",
+      "method": "POST",
+      "module": [
+        "api/articles/index.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/articles",
+      "mountPath": "/api/articles",
+      "method": "PUT",
+      "module": [
+        "api/articles/index.js:onRequestPut"
+      ]
+    },
+    {
+      "routePath": "/api/auth",
+      "mountPath": "/api/auth",
+      "method": "GET",
+      "module": [
+        "api/auth/index.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/auth",
+      "mountPath": "/api/auth",
+      "method": "POST",
+      "module": [
+        "api/auth/index.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/auth",
+      "mountPath": "/api/auth",
+      "method": "PUT",
+      "module": [
+        "api/auth/index.js:onRequestPut"
+      ]
+    },
+    {
+      "routePath": "/api/categories",
+      "mountPath": "/api/categories",
+      "method": "GET",
+      "module": [
+        "api/categories/index.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/categories",
+      "mountPath": "/api/categories",
+      "method": "POST",
+      "module": [
+        "api/categories/index.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/categories",
+      "mountPath": "/api/categories",
+      "method": "PUT",
+      "module": [
+        "api/categories/index.js:onRequestPut"
+      ]
+    },
+    {
+      "routePath": "/api/publications",
+      "mountPath": "/api/publications",
+      "method": "DELETE",
+      "module": [
+        "api/publications/index.js:onRequestDelete"
+      ]
+    },
+    {
+      "routePath": "/api/publications",
+      "mountPath": "/api/publications",
+      "method": "GET",
+      "module": [
+        "api/publications/index.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/publications",
+      "mountPath": "/api/publications",
+      "method": "POST",
+      "module": [
+        "api/publications/index.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/publications",
+      "mountPath": "/api/publications",
+      "method": "PUT",
+      "module": [
+        "api/publications/index.js:onRequestPut"
+      ]
+    },
+    {
+      "routePath": "/api/roadmap",
+      "mountPath": "/api/roadmap",
+      "method": "DELETE",
+      "module": [
+        "api/roadmap/index.js:onRequestDelete"
+      ]
+    },
+    {
+      "routePath": "/api/roadmap",
+      "mountPath": "/api/roadmap",
+      "method": "GET",
+      "module": [
+        "api/roadmap/index.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/roadmap",
+      "mountPath": "/api/roadmap",
+      "method": "POST",
+      "module": [
+        "api/roadmap/index.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/roadmap",
+      "mountPath": "/api/roadmap",
+      "method": "PUT",
+      "module": [
+        "api/roadmap/index.js:onRequestPut"
+      ]
+    },
+    {
+      "routePath": "/api/settings",
+      "mountPath": "/api/settings",
+      "method": "GET",
+      "module": [
+        "api/settings/index.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/api/settings",
+      "mountPath": "/api/settings",
+      "method": "PUT",
+      "module": [
+        "api/settings/index.js:onRequestPut"
+      ]
+    },
+    {
+      "routePath": "/api/share",
+      "mountPath": "/api/share",
+      "method": "POST",
+      "module": [
+        "api/share/index.js:onRequestPost"
+      ]
+    },
+    {
+      "routePath": "/api/stats",
+      "mountPath": "/api/stats",
+      "method": "GET",
+      "module": [
+        "api/stats/index.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/og-image",
+      "mountPath": "/og-image",
+      "method": "GET",
+      "module": [
+        "og-image/index.js:onRequestGet"
+      ]
+    },
+    {
+      "routePath": "/",
+      "mountPath": "/",
+      "method": "",
+      "middleware": [
+        "_middleware.js:onRequest"
+      ]
+    }
+  ],
+  "baseURL": "/"
+}
