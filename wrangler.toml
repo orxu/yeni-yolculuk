@@ -1,11 +1,8 @@
-{
-  "name": "yeni-yolculuk",
-  "compatibility_date": "2026-09-01",
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "yeni-yolculuk-db",
-      "database_id": "PLACEHOLDER_RUN_SETUP_FIRST"
-    }
-  ]
-}
+name = "yeni-yolculuk"
+compatibility_date = "2026-09-01"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "yeni-yolculuk-db"
+database_id = "41562fc8-5ecc-40a9-baab-13754e054dc4"
